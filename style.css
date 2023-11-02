@@ -17,3 +17,12 @@
     --font-Montserrat: 'Montserrat', sans-serif;
     
 }
+
+.sessao-banner video{
+    position: absolute;
+    z-index: -1; /*usado para deixar meu video por trás dos elementos*/
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
